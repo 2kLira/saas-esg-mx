@@ -10,14 +10,14 @@ npm install
 npm run dev
 ```
 
-Abre [http://localhost:5173/saas-esg-landing/](http://localhost:5173/saas-esg-landing/)
+Abre [http://localhost:5173/saas-esg-mx/](http://localhost:5173/saas-esg-mx/)
 
 ## Deploy
 
 Push a la rama `main` — GitHub Actions despliega automáticamente a GitHub Pages.
 
 El sitio queda disponible en:
-`https://<tu-usuario>.github.io/saas-esg-landing/`
+`https://<tu-usuario>.github.io/saas-esg-mx/`
 
 ## Cambiar URL base
 
@@ -25,7 +25,7 @@ Edita `base` en `vite.config.js`:
 
 ```js
 export default defineConfig({
-  base: '/saas-esg-landing/', // ← cambia esto
+  base: '/saas-esg-mx/', // ← cambia esto
 })
 ```
 
