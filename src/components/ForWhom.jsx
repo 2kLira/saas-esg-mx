@@ -155,9 +155,9 @@ export default function ForWhom() {
               <div
                 style={{
                   padding: '12px 16px',
-                  background: 'rgba(255,255,255,0.03)',
+                  background: seg.highlighted ? 'rgba(0, 232, 122, 0.05)' : 'rgba(255,255,255,0.03)',
+                  border: `1px solid ${seg.highlighted ? 'rgba(0, 232, 122, 0.15)' : 'var(--border)'}`,
                   borderRadius: 'var(--radius-sm)',
-                  borderLeft: `2px solid ${seg.highlighted ? 'var(--emerald)' : 'var(--border)'}`,
                 }}
               >
                 <p

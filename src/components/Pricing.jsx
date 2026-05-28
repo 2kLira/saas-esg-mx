@@ -452,8 +452,7 @@ export default function Pricing() {
             transition={{ duration: 0.25 }}
             style={{
               background: activeTab === 'licencia' ? 'rgba(232,197,71,0.05)' : 'rgba(0,232,122,0.05)',
-              borderLeft: `3px solid ${activeTab === 'licencia' ? 'var(--gold)' : 'var(--emerald)'}`,
-              border: `1px solid ${activeTab === 'licencia' ? 'rgba(232,197,71,0.15)' : 'rgba(0,232,122,0.15)'}`,
+              border: `1px solid ${activeTab === 'licencia' ? 'rgba(232,197,71,0.22)' : 'rgba(0,232,122,0.22)'}`,
               borderRadius: 'var(--radius)',
               padding: '20px 24px',
               marginBottom: '40px',

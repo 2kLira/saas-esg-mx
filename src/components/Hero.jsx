@@ -130,16 +130,14 @@ export default function Hero() {
           }}
         >
           Tu empresa ya debería estar reportando.{' '}
-          <span
+          <em
             style={{
-              color: 'transparent',
-              backgroundClip: 'text',
-              WebkitBackgroundClip: 'text',
-              backgroundImage: 'linear-gradient(135deg, #ffffff 0%, rgba(238,242,255,0.7) 100%)',
+              fontStyle: 'italic',
+              color: 'var(--text)',
             }}
           >
             El SAT y la SEMARNAT no esperan.
-          </span>
+          </em>
         </motion.h1>
 
         {/* Subheadline */}

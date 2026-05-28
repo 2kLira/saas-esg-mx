@@ -97,10 +97,8 @@ export default function HowItWorks() {
                   fontSize: '64px',
                   fontWeight: 800,
                   lineHeight: 1,
-                  color: 'transparent',
-                  backgroundClip: 'text',
-                  WebkitBackgroundClip: 'text',
-                  backgroundImage: 'linear-gradient(135deg, var(--emerald) 0%, rgba(0, 232, 122, 0.3) 100%)',
+                  color: 'var(--emerald)',
+                  opacity: 0.9,
                   letterSpacing: '-0.03em',
                   display: 'block',
                 }}
@@ -148,9 +146,9 @@ export default function HowItWorks() {
                       color: 'var(--text-dim)',
                       lineHeight: 1.6,
                       padding: '10px 14px',
-                      background: 'rgba(255,255,255,0.03)',
+                      background: 'rgba(0, 232, 122, 0.04)',
+                      border: '1px solid rgba(0, 232, 122, 0.12)',
                       borderRadius: 'var(--radius-sm)',
-                      borderLeft: '2px solid var(--border-emerald)',
                     }}
                   >
                     {step.note}

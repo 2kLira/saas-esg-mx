@@ -225,9 +225,8 @@ export default function Solution() {
           viewport={{ once: true, margin: '-60px' }}
           transition={{ duration: 0.6, delay: 0.15 }}
           style={{
-            background: 'rgba(0, 232, 122, 0.04)',
-            border: '1px solid rgba(0, 232, 122, 0.15)',
-            borderLeft: '3px solid var(--emerald)',
+            background: 'rgba(0, 232, 122, 0.06)',
+            border: '1px solid rgba(0, 232, 122, 0.22)',
             borderRadius: 'var(--radius)',
             padding: '28px 32px',
             display: 'flex',
